@@ -3,8 +3,8 @@ const startRace = "go.png";
 
 var finishLine = (window.innerWidth - (window.innerWidth * 0.20));
 var declareWinner = false;
-var nyanWin= document.getElementById('nyanWin')
-var pusheenWin= document.getElementById('pusheenWin')
+var nyanWin= document.getElementById('nyanWin');
+var pusheenWin= document.getElementById('pusheenWin');
 
 function ChangeLightColor() {
     var raceLight = document.getElementById("raceLight");
